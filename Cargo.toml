@@ -2,6 +2,13 @@
 name = "format-aliases"
 version = "0.1.0"
 edition = "2021"
+authors = ["Adam Gaia"]
+description = "Print active shell aliases with nice formatting"
+license-file = "LICENSE"
+readme = "README.md"
+documentation = "https://github.com/adam-gaia/format-aliases"
+repository = "https://github.com/adam-gaia/format-aliases"
+homepage = "https://github.com/adam-gaia/format-aliases"
 
 [dependencies]
 anyhow = "1.0.70"
