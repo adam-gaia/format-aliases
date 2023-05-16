@@ -2,6 +2,35 @@
 
 This is a reimplementation of the [OhMyZsh alias cheatsheet plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aliases).
 
+```bash
+$ alias
+[nvim]
+  vim='nvim'
+  wiki='nvim +VimwikiIndex'
+
+[vim]
+  emacs='vim'
+  vi='vim'
+
+[ls]
+  l='ls -alh'
+  ll='ls -l'
+
+[path]
+  spath='path --sort'
+  tpath='path --tree'
+```
+
+## Installation
+
+### Cargo
+
+`cargo install format-aliases`
+
+### Nix Flake
+
+This repo is a flake. The derivation with the exec is `format-aliases.packages.${system}.default`
+
 ## Setup
 
 Run the `format-aliases` init sequence in your shell's rc file. A new function will be included in your shell that overrides the `alias` builtin.
