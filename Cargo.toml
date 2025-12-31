@@ -14,7 +14,7 @@ homepage = "https://github.com/adam-gaia/format-aliases"
 anyhow = "1.0.70"
 clap = { version = "4.2.4", features = ["derive"] }
 colorized = "1.0.0"
-directories = "5.0.0"
+directories = "6.0.0"
 env_logger = "0.11.0"
 indoc = "2.0.1"
 log = "0.4.17"
